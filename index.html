@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feur</title>
+    <link rel="icon" type="image/x-icon" href="LogoDeFeur.jpg">
+    <script src="https://kit.fontawesome.com/2b61a68a35.js" crossorigin="anonymous"></script>
+    <style>
+  
+
+
+
+nav 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  width: 1424px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Jakob;
+}
+
+li a:hover {
+  background-color: #faf2e9;
+}
+.active {
+  background-color: #848d62;
+}
+body
+{
+  background-color: #faf2e9;
+}
+@font-face {
+    font-family: Winter Insight;
+    src: url(jonathan_signature/JonathanSignature.ttf);
+}
+@font-face {
+  font-family: Jakob;
+  src: url(basic_2/Basic\ Light.ttf);
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #faf2e9;
+  color: #faf2e9;
+  font-size: 30px;
+}
+.imagen
+{
+  background-image: url(FotoGrupalFeur.jpg);
+  background-repeat: no-repeat;
+  min-width: 1024px;
+  background-size: cover;
+  min-height: 900px;
+}
+.about
+{
+  font-family:Jakob;
+  background-color: #848d62;
+  position: center; 
+  width: 250px;
+  font-size:25px; 
+  padding:5px; 
+  margin-left: 525px;
+}
+.rep
+{
+  font-family: Jakob;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+img {
+  max-width: 100%
+}
+.image {
+  flex-basis: 40%
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: justify;
+}
+.text2 {
+  font-size: 20px;
+  padding-right: 20px;
+}
+p{
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+/*Mobile View*/
+@media screen and (max-width:400px){
+            nav{
+              width: auto;
+                
+          
+            }
+            .about{
+              margin-left: auto;
+            }
+              
+            .imagen{
+              display: none;
+              
+            }
+
+                
+
+            
+          }
+
+
+    </style>
+
+</head>
+<body>
+    <nav>
+      
+        <li><a class="fa-solid fa-house" style="font-size:18.5px;color:#848d62;" href="#Home"></a></li>
+        <li><a href="#Products">Products</a></li>
+        <li><a href="#Benefits">Benefits</a></li>
+        <li><a href="#About Us">About Us</a></li>
+        <li><a href="#Cart"></a></li>
+        
+        
+        
+    </nav>
+    <div class="header">
+      <center><h1 style="font-family: Winter Insight; font-size: 85px; color: #848d62;">Feur</h1></center>
+      <center><div class="Anuncio"></div></center>
+      <h5 id="Home" class="rep">HOME</h5>
+    </div>
+    <div class="imagen">
+    </div>
+    <div class="header">
+      <h5 id="Products" class="about">PRODUCTS</h5>
+      <p>Our audience is all ages from 13 until they want. Our clothes are divided into feminine and masculine pieces, not men and women, to create inclusivity and open doors so that whoever wants to wear a dress can do so. 
+      </p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="Diana&SofiaFeur.jpg" style="width:400px">
+      </div>
+      <div class="column">
+        <img src="EdwardFeur.jpg" style="width:400px" >
+      </div>
+      <div class="column">
+        <img src="IberoFeur.jpg" style="width:400px">
+      </div>
+    </div>
+    <div class="header">
+      <h5 id="Benefits" class="about">BENEFITS</h5>
+      <p>Our store manages to sell clothes for everyone. With our very inclusive gender pieces, buying in Feur means to have style. Since Feur means Fire, your style will always be on fire, as long as you wear clothes from Feur. We aspire for everyone to feel comfortable and stylish in the best clothes they own, these being made by Feur. Feur, Fashion Made Easy.
+        </p>
+      <div class="row">
+        <div class="column">
+          <img src="JoaFeur.jpg" style="width:50%">
+        </div>
+        <div class="column">
+          <img src="JadielFeur.jpg" style="width:50%">
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <h5 id="About Us" class="about">ABOUT US</h5>
+      <p>Our audience is all ages from 13 until they want. Our clothes are divided into feminine and masculine pieces, not men and women, to create inclusivity and open doors so that whoever wants to wear a dress can do so.
+        </p>  
+      <div class="row">
+        <div class="column">
+          <img src="FutoGrupal2.jpg" style="width:50%">
+        </div>
+      </div>
+    </div>
+   
+  
+    
+    
+
+      
+      
+    
+    <hr>
+</body>
+</html>
